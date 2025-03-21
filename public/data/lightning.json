@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.6596, 35.2828]
+      },
+      "properties": {
+        "title": "Lightning Strike #1",
+        "description": "Strike detected near San Luis Obispo",
+        "intensity": "high",
+        "timestamp": "2024-03-20T10:15:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.5453, 33.8303]
+      },
+      "properties": {
+        "title": "Lightning Strike #2",
+        "description": "Strike detected in Palm Springs area",
+        "intensity": "medium",
+        "timestamp": "2024-03-20T10:20:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.8853, 37.3387]
+      },
+      "properties": {
+        "title": "Lightning Strike #3",
+        "description": "Strike detected near San Jose",
+        "intensity": "low",
+        "timestamp": "2024-03-20T10:25:00Z"
+      }
+    }
+  ]
+} 

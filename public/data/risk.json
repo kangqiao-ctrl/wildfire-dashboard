@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-122.4194, 37.7749],
+          [-122.4194, 37.8044],
+          [-122.3708, 37.8044],
+          [-122.3708, 37.7749],
+          [-122.4194, 37.7749]
+        ]]
+      },
+      "properties": {
+        "title": "SF Risk Zone",
+        "description": "High risk area in San Francisco",
+        "riskLevel": "high",
+        "category": "urban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-118.2437, 34.0522],
+          [-118.2437, 34.0922],
+          [-118.1937, 34.0922],
+          [-118.1937, 34.0522],
+          [-118.2437, 34.0522]
+        ]]
+      },
+      "properties": {
+        "title": "LA Risk Zone",
+        "description": "Medium risk area in Los Angeles",
+        "riskLevel": "medium",
+        "category": "urban"
+      }
+    }
+  ]
+} 

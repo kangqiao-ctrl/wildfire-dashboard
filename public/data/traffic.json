@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4194, 37.7749],
+          [-122.2708, 37.8044],
+          [-122.2585, 37.8136]
+        ]
+      },
+      "properties": {
+        "title": "Bay Bridge Traffic",
+        "description": "Heavy congestion on the Bay Bridge",
+        "severity": "high",
+        "speed": "5mph"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-118.2437, 34.0522],
+          [-118.3813, 34.0686],
+          [-118.4912, 34.0195]
+        ]
+      },
+      "properties": {
+        "title": "LA Traffic",
+        "description": "Slow traffic on I-10 West",
+        "severity": "medium",
+        "speed": "15mph"
+      }
+    }
+  ]
+} 

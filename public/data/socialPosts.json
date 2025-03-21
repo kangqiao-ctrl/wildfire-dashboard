@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      },
+      "properties": {
+        "title": "Social Post #1",
+        "description": "Traffic incident reported in San Francisco",
+        "timestamp": "2024-03-20T10:30:00Z",
+        "type": "incident"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.2437, 34.0522]
+      },
+      "properties": {
+        "title": "Social Post #2",
+        "description": "Large gathering in downtown LA",
+        "timestamp": "2024-03-20T11:00:00Z",
+        "type": "event"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7871, 36.7378]
+      },
+      "properties": {
+        "title": "Social Post #3",
+        "description": "Weather alert in Fresno area",
+        "timestamp": "2024-03-20T11:15:00Z",
+        "type": "weather"
+      }
+    }
+  ]
+} 

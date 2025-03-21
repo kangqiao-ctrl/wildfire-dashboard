@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2708, 37.8044]
+      },
+      "properties": {
+        "title": "Camera #1",
+        "description": "Oakland Bay Bridge Camera",
+        "status": "active",
+        "type": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.4912, 34.0195]
+      },
+      "properties": {
+        "title": "Camera #2",
+        "description": "Santa Monica Freeway Camera",
+        "status": "active",
+        "type": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.4944, 38.5816]
+      },
+      "properties": {
+        "title": "Camera #3",
+        "description": "Sacramento Downtown Camera",
+        "status": "maintenance",
+        "type": "surveillance"
+      }
+    }
+  ]
+} 

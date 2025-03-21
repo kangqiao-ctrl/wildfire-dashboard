@@ -1,0 +1,117 @@
+.map-container-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.map-container {
+  width: 100%;
+  height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 16px 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  font-weight: 500;
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.map-legend h4 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 4px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.circle-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.circle-icon.green {
+  background-color: #4CAF50;
+  border: 1px solid #333;
+}
+
+.circle-icon.yellow {
+  background-color: #FFC107;
+  border: 1px solid #333;
+}
+
+.circle-icon.red {
+  background-color: #FF5252;
+  border: 1px solid #333;
+}
+
+.lightning-icon {
+  display: inline-block;
+  width: 12px;
+  height: 16px;
+  margin-right: 8px;
+  background: yellow;
+  clip-path: polygon(50% 0%, 0% 100%, 50% 80%, 100% 100%);
+}
+
+.error-message {
+  background-color: #ffe0e0;
+  color: #d32f2f;
+  padding: 16px;
+  border-radius: 4px;
+  margin: 16px 0;
+  text-align: center;
+  border: 1px solid #f5c6cb;
+}
+
+/* Style for Mapbox popups */
+.mapboxgl-popup-content {
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.mapboxgl-popup-content h4 {
+  margin: 0 0 8px;
+  color: #333;
+  font-size: 14px;
+}
+
+.mapboxgl-popup-content p {
+  margin: 0 0 4px;
+  color: #666;
+  font-size: 12px;
+}
+
+/* Make navigation controls more visible */
+.mapboxgl-ctrl-group {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
